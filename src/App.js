@@ -20,7 +20,7 @@ function App() {
           className={`nav-button ${currentView === 'addQuote' ? 'active' : ''}`}
           onClick={() => setCurrentView('addQuote')}
         >
-          Add Quote
+          Add New Quote
         </button>
         <button 
           className={`nav-button ${currentView === 'nback' ? 'active' : ''}`}
