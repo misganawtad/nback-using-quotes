@@ -1,0 +1,200 @@
+.nback-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.nback-header {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.nback-title {
+  font-size: 32px;
+  color: #2c3e50;
+  margin-bottom: 24px;
+  font-weight: 600;
+}
+
+.controls-section {
+  background: #f8f9fa;
+  padding: 24px;
+  border-radius: 12px;
+  margin-bottom: 24px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.control-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.select-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.select-control {
+  padding: 8px 16px;
+  border: 2px solid #e2e8f0;
+  border-radius: 8px;
+  font-size: 16px;
+  background-color: white;
+  cursor: pointer;
+  transition: border-color 0.2s;
+}
+
+.select-control:focus {
+  outline: none;
+  border-color: #3b82f6;
+}
+
+.select-control:disabled {
+  background-color: #f1f5f9;
+  cursor: not-allowed;
+}
+
+.start-button {
+  background-color: #3b82f6;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.start-button:hover:not(:disabled) {
+  background-color: #2563eb;
+}
+
+.start-button:disabled {
+  background-color: #cbd5e1;
+  cursor: not-allowed;
+}
+
+.score-display {
+  font-size: 20px;
+  color: #1e293b;
+  margin: 16px 0;
+}
+
+.quote-card {
+  background: white;
+  padding: 32px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 24px;
+}
+
+.quote-progress {
+  color: #64748b;
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+.quote-content {
+  font-size: 20px;
+  color: #1e293b;
+  line-height: 1.6;
+  margin-bottom: 16px;
+}
+
+.quote-author {
+  color: #64748b;
+  font-style: italic;
+  font-size: 16px;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 24px;
+}
+
+.match-button, .no-match-button {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.match-button {
+  background-color: #22c55e;
+  color: white;
+}
+
+.match-button:hover {
+  background-color: #16a34a;
+}
+
+.no-match-button {
+  background-color: #ef4444;
+  color: white;
+}
+
+.no-match-button:hover {
+  background-color: #dc2626;
+}
+
+.feedback {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 16px;
+  font-size: 16px;
+}
+
+.feedback.correct {
+  color: #16a34a;
+}
+
+.feedback.incorrect {
+  color: #dc2626;
+}
+
+.instructions {
+  background: #f8f9fa;
+  padding: 24px;
+  border-radius: 12px;
+  margin-top: 32px;
+}
+
+.instructions-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1e293b;
+  margin-bottom: 16px;
+}
+
+.instructions-text {
+  color: #475569;
+  line-height: 1.6;
+}
+
+.instructions-text p {
+  margin-bottom: 8px;
+}
+
+.error-message {
+  color: #dc2626;
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+.loading-message {
+  color: #64748b;
+  font-size: 14px;
+  margin-top: 8px;
+}
